@@ -1,7 +1,7 @@
 {
   "name": "fastify-pg-pubsub",
   "description": "Minimal pub/sub for fastify servers with postgres",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "bugs": "https://github.com/nearform/fastify-pg-pubsub/issues",
   "dependencies": {
