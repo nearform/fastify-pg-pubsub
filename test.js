@@ -23,7 +23,7 @@ test('pubsub - emit events', async (t) => {
   app.pg.pool.expect(/SELECT pg_notify\(.*?, .*?\)/, ['emit_events', 'testval'], [])
 
   let r
-  let promise = new Promise((resolve) => {
+  const promise = new Promise((resolve) => {
     r = resolve
   })
   await app.pubsub.subscribe('emit_events')
